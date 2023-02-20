@@ -34,7 +34,7 @@ from streamlit_folium import folium_static
 import folium
 
 st.set_page_config(
-    page_title="ICB Place Based Allocation Tool",
+    page_title="ICB Place Based Allocation Tool 2022/23",
     page_icon="https://www.england.nhs.uk/wp-content/themes/nhsengland/static/img/favicon.ico",
     layout="centered",
     initial_sidebar_state="expanded",
@@ -155,7 +155,8 @@ svg = """
 """
 render_svg(svg)
 
-st.title("ICB Place Based Allocation Tool")
+st.title("ICB Place Based Allocation Tool 2022/23")
+st.markdown("**Find the latest tool here: [ICB Place Based Allocation Tool 2023/24 and 2024/25](https://aif-allocation-tool-202324-202425.streamlit.app)**")
 st.markdown("Last Updated 6th January 2022")
 
 # Import Data
